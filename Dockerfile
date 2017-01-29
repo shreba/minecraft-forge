@@ -22,7 +22,7 @@ RUN echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
     locale-gen
 
 # Configure environment
-ENV VERSION 1.11.2-13.20.0.2222
+ENV VERSION 1.7.10 - 10.13.4.1614
 ENV SHELL /bin/bash
 ENV NB_USER minecraft
 ENV NB_UID 1000
